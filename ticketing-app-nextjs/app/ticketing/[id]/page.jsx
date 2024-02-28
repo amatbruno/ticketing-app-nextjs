@@ -1,5 +1,7 @@
-const Ticket = ({params}) => {
-  return <div>Ticket {params.id}</div>;
+import TicketForm from "@/app/(components)/TicketForm";
+
+const Ticket = () => {
+  return <TicketForm />;
 };
 
 export default Ticket;
